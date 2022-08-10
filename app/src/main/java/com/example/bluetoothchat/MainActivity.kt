@@ -177,6 +177,9 @@ class MainActivity : AppCompatActivity() {
 
         init {
             device = device1
+
+
+
             try {
                 socket = device.createRfcommSocketToServiceRecord(MY_UUID)
             } catch (e: IOException) {
